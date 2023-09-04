@@ -33,3 +33,8 @@ npm install -- pruebas
 ```
 npm run build
 ```
+
+### solucion de error que ya existe u otro proceso esta usando git
+```
+rm .git/index.lock
+```
